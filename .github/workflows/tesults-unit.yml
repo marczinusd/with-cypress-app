@@ -1,4 +1,4 @@
-name: Cypress Tesults
+name: Tesults - Jest
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
       - name: Run tests and publish
         uses: actions/setup-node@v3
         env:
-          TESULTS_TOKEN: ${{ secrets.TESULTS_TOKEN }}
+          TESULTS_UNIT: ${{ secrets.TESULTS_UNIT }}
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"

@@ -1,4 +1,4 @@
-name: Cypress Tesults
+name: Tesults - Cypress
 
 on:
   push:
