@@ -21,6 +21,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
     "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/react": "^14.1.0",
     "@types/node": "18.0.6",

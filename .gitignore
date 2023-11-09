@@ -40,3 +40,5 @@ next-env.d.ts
 /cypress/videos
 
 **/test-results.xml
+
+**/allure-results/**
