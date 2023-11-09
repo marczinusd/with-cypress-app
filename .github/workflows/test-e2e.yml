@@ -14,6 +14,6 @@ jobs:
         with:
           project: ./
           browser: chrome
-          build: npm install
+          build: npm build
           start: npm start
           wait-on: "http://localhost:3000"
