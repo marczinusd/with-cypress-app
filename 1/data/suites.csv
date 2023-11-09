@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Nov 09 17:12:32 GMT 2023","Thu Nov 09 17:12:33 GMT 2023","68","","Navigation","","","","should have a link navigation to the documentation",""
-"passed","Thu Nov 09 17:12:32 GMT 2023","Thu Nov 09 17:12:32 GMT 2023","205","","Navigation","","","","should navigate to the about page",""
-"passed","Thu Nov 09 17:12:33 GMT 2023","Thu Nov 09 17:12:33 GMT 2023","66","","Navigation","","","","should have a welcome message",""

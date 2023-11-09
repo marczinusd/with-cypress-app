@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 09 17:29:03 GMT 2023","Thu Nov 09 17:29:03 GMT 2023","13","","AboutComponent","","AboutComponent","should display a title containing ""About""","should display a title containing ""About""",""
+"passed","Thu Nov 09 17:28:59 GMT 2023","Thu Nov 09 17:28:59 GMT 2023","66","","Navigation","","","","should have a welcome message",""
+"passed","Thu Nov 09 17:28:59 GMT 2023","Thu Nov 09 17:28:59 GMT 2023","71","","Navigation","","","","should have a link navigation to the documentation",""
+"passed","Thu Nov 09 17:29:03 GMT 2023","Thu Nov 09 17:29:03 GMT 2023","19","","AboutComponent","","AboutComponent","should render","should render",""
+"passed","Thu Nov 09 17:28:58 GMT 2023","Thu Nov 09 17:28:59 GMT 2023","199","","Navigation","","","","should navigate to the about page",""
