@@ -1,0 +1,26 @@
+name: Cypress Tesults
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/checkout@v3
+
+      - name: Run tests and publish
+        uses: actions/setup-node@v3
+        env:
+          TESULTS_TOKEN: ${{ secrets.TESULTS_TOKEN }}
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npm ci
+      - run: TESULTS_UNIT=$TESULTS_UNIT npm run test:tesults

@@ -5,6 +5,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
+    "test:tesults": "jest --config=jest.config.tesults.mjs",
     "coverage": "jest --coverage",
     "e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\"",
     "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "cypress-tesults-reporter": "^1.4.1",
+    "jest-tesults-reporter": "^1.2.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
