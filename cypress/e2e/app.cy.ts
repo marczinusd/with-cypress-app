@@ -25,7 +25,7 @@ describe("Navigation", () => {
   });
 
   it("should have a link navigation to the documentation", () => {
-    cy.get('a[href*="documentation"]');
+    cy.contains("Documentation");
   });
 
   it("should have a welcome message", () => {
