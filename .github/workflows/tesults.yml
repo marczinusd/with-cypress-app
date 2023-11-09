@@ -18,10 +18,10 @@ jobs:
       - name: Run tests and publish
         uses: actions/setup-node@v3
         env:
-          TESULTS_TOKEN: ${{ secrets.TESULTS_TOKEN }}
+          TESULTS_E2E: ${{ secrets.TESULTS_E2E }}
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
       - run: npm run build --if-present
-      - run: TESULTS_TOKEN=$TESULTS_TOKEN npm run e2e:headless:tesults
+      - run: TESULTS_E2E=$TESULTS_E2E npm run e2e:headless:tesults

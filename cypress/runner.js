@@ -1,7 +1,7 @@
 const cypress = require("cypress");
 const tesults = require("cypress-tesults-reporter");
 
-const token = process.env.TESULTS_TOKEN;
+const token = process.env.TESULTS_E2E;
 if (token === undefined) {
   throw new Error(
     "Tesults token was not found -- please set the TESULTS_TOKEN environment variable."
