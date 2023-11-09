@@ -20,7 +20,7 @@ const config = {
   testEnvironment: "jest-environment-jsdom",
   reporters: [
     "default",
-    ["jest-tesults-reporter", { "tesults-target": "token" }],
+    ["jest-tesults-reporter", { "tesults-target": token }],
   ],
   collectCoverage: true,
 };
