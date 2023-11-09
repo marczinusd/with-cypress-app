@@ -12,6 +12,8 @@ jobs:
         node-version: [18.x]
 
     steps:
+    - env: 
+        TESULTS_TOKEN: ${{ secrets.TESULTS_TOKEN }}
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
